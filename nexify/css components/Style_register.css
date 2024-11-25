@@ -1,0 +1,139 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #454545;
+  }
+  
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and nav links */
+    list-style: none;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 40px; /* Adjust logo image size */
+    height: 40px;
+    margin-right: 10px; /* Space between logo image and text */
+    border-radius: 50%; /* Optional: Make the logo image circular */
+  }
+  
+  .logo-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+    
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 5px;
+    }
+    
+    .navbar a:hover {
+      background-color: #575757;
+    }
+   
+
+
+  .registration-form {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 400px;
+    padding: 40px;
+    background-color: #1f1f1f; /* Adjust opacity as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group select{
+    width: 105%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #e20a27;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    transform: scale(1.1); /* Slightly larger */
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+    transition: box-shadow 0.3s ease;
+  }
+
+  button:active {
+      transform: scale(0.95) translateY(2px); /* Shrink and move down */
+  background-color: #ff6700; /* Change background color */
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2); /* Add inset shadow */
+  opacity: 0.9; /* Slight dim effect */
+  }
+  
+  .language-selector {
+    margin-top: 20px;
+  }
+  
+  .language-selector label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .language-selector select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }

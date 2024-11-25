@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexify Freelancer Dashboard</title>
+    <title>Nexify Client Dashboard</title>
     <link rel="stylesheet" href="css components\freelancer_style.css">
 </head>
 <body>
@@ -26,12 +26,10 @@
     <div class="container">
         <!-- Sidebar -->
         <aside class="sidebar">
-            <ul class="menu">
-               <li> <a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/homepagenexify.html"><i class="icon">🏠</i>Home</a> </li>    
-               <li><a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/freelancer_projects.html"><i class="icon">📋</i>My Projects</a> </li>              
-               <li><i class="icon">🏆</i> Gamified Rank</li>
-    
-            </ul>
+            <div class="menu">
+               <li> <a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/homepagenexify.html"><i class="icon">🏠</i>Home</a></li>               
+               <li><a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/client_assigned_project.html"><i class="icon">📋</i>Assigned Project</a></li>              
+            </div>
         </aside>
 
         <!-- Main Content -->
@@ -40,14 +38,7 @@
                 <!-- Filter Section -->
                 <section class="filter">
                     <h2>Filters</h2>
-                    <h3>Budget</h3>
-                    <input type="checkbox" id="fixed-price"> Fixed Price Projects<br>
-                    <input type="number" id="fixed-price-min" placeholder="Min"> to 
-                    <input type="number" id="fixed-price-max" placeholder="Max">
-                    <br>
-                    <input type="checkbox" id="hourly-projects"> Hourly Projects<br>
-                    <input type="number" id="hourly-min" placeholder="Min"> to 
-                    <input type="number" id="hourly-max" placeholder="Max">
+                    
                     <h3>Type</h3>
                     <input type="checkbox" id="local-jobs"> Local Jobs<br>
                     <input type="checkbox" id="featured-jobs"> Featured Jobs<br>
@@ -58,7 +49,7 @@
 
                 <!-- Project Section -->
                 <section class="projects-section">
-                    <h2>Projects</h2>
+                    <h2>Freelancer's Profile</h2>
                     <div class="projects">
                         <!-- Projects will be injected dynamically -->
                     </div>

@@ -4,9 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration Form</title>
-  <link rel="stylesheet" href="Style_register.css">
+  <link rel="stylesheet" href="css components\Style_register.css">
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <img src="images\cropped_image.png" alt="Nexify Logo" class="logo-img">
+        <span class="logo-text">Nexify</span>
+      </div>
+      <div class="nav-links">
+        <a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/homepagenexify.html">Home</a>
+        <a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/homepagenexify.html">About</a>
+        <a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/homepagenexify.html">Contact</a>
+        <a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/login%20page.html">Login</a>
+        <a href="file:///C:/Users/Harshad%20Apage/OneDrive/Documents/New%20folder/nexify/register.html">Signup</a>
+      </div>
+    </div>
+  </nav>
+  
   <div class="registration-form">
     <form action="file:///C:/Users/Harshad%20Apage/OneDrive/Desktop/Mini_Project_coding_Browser/clg%20project%20coding%20browser/Login.html">
       <h1>Register</h1>
@@ -47,7 +64,7 @@
 
       <div class="form-group">
         <label for="join as">Join as</label>
-        <select name="join as" id="join as">
+        <select name="join as" id="join as" required>
             <option value="client">Client</option>
             <option value="freelancer">Freelancer</option>
         </select>

@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-center h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-grow: 1;
+    height: calc(100vh - 70px); /* Adjust for navbar height */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #e0e0e0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu a{
+    padding: 10px;
+    margin: 10px 0;
+    background: #e0e0e0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+/* Filter Section */
+.filter {
+    width: 25%;
+    background: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.apply-filter {
+    margin-top: 10px;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Projects Section */
+.projects-section {
+    width: 75%;
+    padding: 0 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.project button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
